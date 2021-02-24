@@ -1,0 +1,28 @@
+*,::before,::after {
+    margin: 0;
+    padding: 0;
+    box-sizing: inherit;
+}
+
+html {
+    box-sizing: inherit;
+    font-size: 62.5%;
+}
+
+body {
+    box-sizing: border-box;
+    font-family: 'Montserrat', sans-serif;
+    font-size: 1.6rem;
+    font-weight: 400;
+    color: $color-primary;
+}
+
+
+
+.container {
+    width: 100%;
+    
+    // display: grid;
+    // grid-template-rows: auto;
+    // grid-template-columns: [full-start] 14rem [center-start] 1fr [center-end] 14rem [full-end];
+}

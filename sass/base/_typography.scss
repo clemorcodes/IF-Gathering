@@ -1,0 +1,14 @@
+.heading {
+    text-transform: uppercase;
+
+    &__primary {
+        font-size: 4rem;
+    }
+    &__secondary {
+        font-size: 3.5rem;
+    }
+    &__tertiary {
+        font-size: 3rem;
+    }
+    
+} 

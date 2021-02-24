@@ -1,0 +1,11 @@
+.footer {
+    grid-column: full-start / full-end;
+    text-align: center;
+    padding: 2rem 0;
+
+    &__copyright {
+        font-size: 1.7rem;
+        color: #6f6f6f;
+    }
+    
+}

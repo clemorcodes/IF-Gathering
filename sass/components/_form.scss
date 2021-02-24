@@ -1,0 +1,47 @@
+.give {
+    padding: 5rem;
+    position: absolute;
+    top: 30%;
+    left: 8%;
+    z-index: 20;
+    background-color: $color-white;
+
+    &__heading {
+        text-align: center;
+        text-transform: uppercase;
+    }
+}
+
+.second {
+    display: flex;
+    flex-direction: column;
+}
+
+.star, .dollar {
+    color: $color-btn;
+}
+
+// input {
+//     visibility: hidden;
+// }
+
+
+.subscription {
+    list-style: none;
+    display: flex;
+
+    &__item {
+        width: 100%;
+    }
+
+    &__input {
+        visibility: hidden;
+    }
+
+    &__label {
+        background-color: #4567;
+    }
+}
+label {
+    cursor: pointer;
+}

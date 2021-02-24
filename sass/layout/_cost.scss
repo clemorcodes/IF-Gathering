@@ -1,0 +1,32 @@
+.cost {
+    grid-column: full-start / full-end;
+    background-image: url(/img/cost.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+    text-align: center;
+    padding: 10rem 0;
+    
+
+    &__heading {
+        text-align: center;
+        color: $color-btn;
+        padding-bottom: 2rem;
+    }
+
+    &__items {
+        width: 90%;
+        margin: 0 auto;
+        padding-bottom: .5rem;
+    }
+
+    &__btn {
+        margin-top: 2rem;
+        padding: 2rem 3rem;
+
+        &:hover {
+            color: $color-btn;
+            background-color: $color-bg-cost;
+        }
+    }
+}

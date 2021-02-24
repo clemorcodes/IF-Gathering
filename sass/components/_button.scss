@@ -1,0 +1,11 @@
+.btn {
+    outline: none;
+    cursor: pointer;
+    border: 2px solid $color-btn;
+    border-radius: $border-radius;
+    font-size: 2rem;
+    text-transform: uppercase;
+    background-color: $color-btn;
+    color: $color-white;
+
+}

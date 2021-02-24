@@ -1,0 +1,382 @@
+*, ::before, ::after {
+  margin: 0;
+  padding: 0;
+  -webkit-box-sizing: inherit;
+          box-sizing: inherit;
+}
+
+html {
+  -webkit-box-sizing: inherit;
+          box-sizing: inherit;
+  font-size: 62.5%;
+}
+
+body {
+  -webkit-box-sizing: border-box;
+          box-sizing: border-box;
+  font-family: 'Montserrat', sans-serif;
+  font-size: 1.6rem;
+  font-weight: 400;
+  color: #58585a;
+}
+
+.container {
+  width: 100%;
+}
+
+.heading {
+  text-transform: uppercase;
+}
+
+.heading__primary {
+  font-size: 4rem;
+}
+
+.heading__secondary {
+  font-size: 3.5rem;
+}
+
+.heading__tertiary {
+  font-size: 3rem;
+}
+
+.btn {
+  outline: none;
+  cursor: pointer;
+  border: 2px solid #a80750;
+  border-radius: 0.4rem;
+  font-size: 2rem;
+  text-transform: uppercase;
+  background-color: #a80750;
+  color: #ffffff;
+}
+
+.give {
+  padding: 5rem;
+  position: absolute;
+  top: 30%;
+  left: 8%;
+  z-index: 20;
+  background-color: #ffffff;
+}
+
+.give__heading {
+  text-align: center;
+  text-transform: uppercase;
+}
+
+.second {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+}
+
+.star, .dollar {
+  color: #a80750;
+}
+
+.subscription {
+  list-style: none;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+}
+
+.subscription__item {
+  width: 100%;
+}
+
+.subscription__input {
+  visibility: hidden;
+}
+
+.subscription__label {
+  background-color: #4567;
+}
+
+label {
+  cursor: pointer;
+}
+
+.cost {
+  grid-column: full-start / full-end;
+  background-image: url(/img/cost.jpg);
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: center;
+  text-align: center;
+  padding: 10rem 0;
+}
+
+.cost__heading {
+  text-align: center;
+  color: #a80750;
+  padding-bottom: 2rem;
+}
+
+.cost__items {
+  width: 90%;
+  margin: 0 auto;
+  padding-bottom: .5rem;
+}
+
+.cost__btn {
+  margin-top: 2rem;
+  padding: 2rem 3rem;
+}
+
+.cost__btn:hover {
+  color: #a80750;
+  background-color: #dee2e6;
+}
+
+.disciples {
+  display: -ms-grid;
+  display: grid;
+  -ms-grid-rows: auto;
+      grid-template-rows: auto;
+  -ms-grid-columns: [full-start] 14rem [center-start] 1fr [center-end] 14rem [full-end];
+      grid-template-columns: [full-start] 14rem [center-start] 1fr [center-end] 14rem [full-end];
+  background-color: #e8e8e8;
+}
+
+.disciples__container {
+  grid-column: center-start / center-end;
+  text-align: center;
+  padding: 6rem 0 10rem 0;
+}
+
+.disciples__heading {
+  padding-bottom: 3rem;
+}
+
+.disciples__items {
+  width: 100%;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+}
+
+.disciples__item {
+  width: 31%;
+}
+
+.disciples__item img {
+  width: 60%;
+}
+
+.figure {
+  width: 100%;
+}
+
+.figure__image {
+  -webkit-clip-path: circle(50% at 50% 50%);
+          clip-path: circle(50% at 50% 50%);
+}
+
+.figure__name {
+  width: 100%;
+  color: #d2b579;
+  padding: 2rem 0 2rem 0;
+}
+
+.figure__text {
+  width: 100%;
+  padding: 0 2rem 3rem 2rem;
+}
+
+.figure__link {
+  text-decoration: none;
+  font-size: 2rem;
+  font-weight: 900;
+  color: #58585a;
+  padding-bottom: 1rem;
+  border-bottom: 2px solid #d2b579;
+}
+
+.footer {
+  grid-column: full-start / full-end;
+  text-align: center;
+  padding: 2rem 0;
+}
+
+.footer__copyright {
+  font-size: 1.7rem;
+  color: #6f6f6f;
+}
+
+.global {
+  grid-column: full-start / full-end;
+  background-image: url("/img/bg-world.jpg");
+  background-size: cover;
+  text-align: center;
+  padding: 10rem 0 12rem 0;
+  color: #ffffff;
+}
+
+.global__heading {
+  padding-bottom: 3rem;
+}
+
+.global__text {
+  margin: 0 auto;
+  text-align: center;
+  max-width: 50%;
+  padding-bottom: 5rem;
+}
+
+.global__link {
+  text-decoration: none;
+  color: #ffffff;
+  padding: 2rem;
+  border: 1px solid #ffffff;
+  border-radius: 0.4rem;
+}
+
+.global__link:hover {
+  color: #58585a;
+  background-color: #ffffff;
+  -webkit-transition: all 0.3s;
+  transition: all 0.3s;
+}
+
+.header__image {
+  width: 100%;
+}
+
+.impact {
+  max-width: 120rem;
+  margin: 0 auto;
+  padding: 0 4rem;
+  width: 100%;
+  padding: 10rem 0;
+  text-align: center;
+}
+
+.impact__heading {
+  padding-bottom: 3rem;
+}
+
+.impact__items {
+  width: 100%;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+}
+
+.impact__item {
+  width: 31%;
+  text-align: center;
+  -webkit-box-shadow: 0 1.5rem 4rem rgba(0, 0, 0, 0.3);
+          box-shadow: 0 1.5rem 4rem rgba(0, 0, 0, 0.3);
+}
+
+.impact__item--image {
+  width: 100%;
+}
+
+.impact__item--figcaption {
+  padding: 3rem 2rem 3.5rem;
+}
+
+.impact__item--heading {
+  color: #d2b579;
+  padding-bottom: 2rem;
+}
+
+.nav {
+  max-width: 120rem;
+  margin: 2rem auto;
+  padding: 0 4rem;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+}
+
+.nav__logo img {
+  width: 7rem;
+}
+
+.nav__link {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  text-decoration: none;
+  color: #58585a;
+  font-weight: 200;
+  padding: 1rem 2rem;
+  border: 2px solid #a80750;
+  border-radius: 0.3rem;
+}
+
+.nav__link:hover {
+  color: #ffffff;
+  background-color: #a80750;
+}
+
+.nav__link:hover .nav__link--icon {
+  fill: #ffffff;
+}
+
+.nav__link--icon {
+  width: 2rem;
+  height: 2rem;
+  margin-top: 0.5rem;
+  padding-right: 0.2rem;
+  fill: #a80750;
+}
+
+.stories {
+  grid-column: full-start / full-end;
+  background-image: url(/img/photo_women-talking.jpg);
+  background-repeat: no-repeat;
+  background-position: center bottom;
+  background-size: cover;
+  height: 100vh;
+}
+
+.unleash {
+  grid-column: center-start / center-end;
+  font-size: 2.4rem;
+  font-weight: 400;
+  text-align: center;
+  margin: 0 auto;
+  padding: 10rem 0;
+  width: 70%;
+}
+
+.unleash__heading {
+  padding-bottom: 3rem;
+}
+
+.unleash__text {
+  padding: 0 2rem 3rem 2rem;
+}
+
+.unleash__link {
+  text-decoration: none;
+  border-bottom: 2px solid #d2b579;
+  color: #58585a;
+  font-size: 2rem;
+  font-weight: 700;
+  padding-bottom: 1rem;
+}

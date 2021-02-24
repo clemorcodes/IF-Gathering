@@ -1,0 +1,41 @@
+.nav {
+  //grid-column: center-start / center-end;
+  max-width: 120rem;
+  margin: 2rem auto;
+  padding: 0 4rem;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+
+  &__logo img {
+    width: 7rem;
+  }
+
+  &__link {
+    display: flex;
+    align-items: center;
+    text-decoration: none;
+    color: $color-primary;
+    font-weight: 200;
+    padding: 1rem 2rem;
+    border: 2px solid $color-btn;
+    border-radius: 0.3rem;
+
+    &:hover {
+      color: $color-white;
+      background-color: $color-btn;
+
+      .nav__link--icon {
+        fill: $color-white;
+      }
+    }
+
+    &--icon {
+      width: 2rem;
+      height: 2rem;
+      margin-top: 0.5rem;
+      padding-right: 0.2rem;
+      fill: $color-btn;
+    }
+  }
+}

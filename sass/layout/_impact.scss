@@ -1,0 +1,38 @@
+.impact {
+    //grid-column: center-start / center-end;
+    max-width: 120rem;
+    margin: 0 auto;
+    padding: 0 4rem;
+    width: 100%;
+    padding: 10rem 0;
+    text-align: center;
+
+    &__heading {
+        padding-bottom: 3rem;
+    }
+
+    &__items {
+        width: 100%;
+        display: flex;
+        justify-content: space-between;
+    }
+
+    &__item {
+        width: 31%;
+        text-align: center;
+        box-shadow: 0 1.5rem 4rem rgba($color-black, .3);
+
+        &--image {
+            width: 100%;
+        }
+
+        &--figcaption {
+            padding: 3rem 2rem 3.5rem;
+        }
+
+        &--heading {
+            color: $color-secondary;
+            padding-bottom: 2rem;
+        }
+    }
+}
