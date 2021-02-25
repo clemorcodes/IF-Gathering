@@ -21,8 +21,6 @@ body {
 
 .container {
     width: 100%;
+    max-width: 144rem;
     
-    // display: grid;
-    // grid-template-rows: auto;
-    // grid-template-columns: [full-start] 14rem [center-start] 1fr [center-end] 14rem [full-end];
 }

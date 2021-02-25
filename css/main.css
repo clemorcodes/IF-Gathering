@@ -22,6 +22,7 @@ body {
 
 .container {
   width: 100%;
+  max-width: 144rem;
 }
 
 .heading {
@@ -73,6 +74,10 @@ body {
   -webkit-box-direction: normal;
       -ms-flex-direction: column;
           flex-direction: column;
+}
+
+.second__input::before {
+  content: "$";
 }
 
 .star, .dollar {
@@ -135,19 +140,16 @@ label {
 }
 
 .disciples {
-  display: -ms-grid;
-  display: grid;
-  -ms-grid-rows: auto;
-      grid-template-rows: auto;
-  -ms-grid-columns: [full-start] 14rem [center-start] 1fr [center-end] 14rem [full-end];
-      grid-template-columns: [full-start] 14rem [center-start] 1fr [center-end] 14rem [full-end];
+  width: 100%;
   background-color: #e8e8e8;
 }
 
 .disciples__container {
-  grid-column: center-start / center-end;
+  width: 100%;
+  max-width: 120rem;
+  margin: 0 auto;
+  padding: 6rem 4rem 10rem 4rem;
   text-align: center;
-  padding: 6rem 0 10rem 0;
 }
 
 .disciples__heading {
@@ -254,9 +256,8 @@ label {
 .impact {
   max-width: 120rem;
   margin: 0 auto;
-  padding: 0 4rem;
   width: 100%;
-  padding: 10rem 0;
+  padding: 10rem 4rem;
   text-align: center;
 }
 
@@ -365,6 +366,8 @@ label {
 }
 
 .unleash__heading {
+  width: 85%;
+  margin: 0 auto;
   padding-bottom: 3rem;
 }
 

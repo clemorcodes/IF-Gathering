@@ -15,6 +15,10 @@
 .second {
     display: flex;
     flex-direction: column;
+    
+    &__input::before {
+        content: "$";
+    }
 }
 
 .star, .dollar {
