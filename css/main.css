@@ -132,13 +132,21 @@ label {
   background-repeat: no-repeat;
   background-position: center;
   text-align: center;
-  padding: 10rem 0;
+  padding: 10rem 2rem;
 }
 
 .cost__heading {
   text-align: center;
   color: #a80750;
   padding-bottom: 2rem;
+  width: 50%;
+  margin: 0 auto;
+}
+
+@media only screen and (max-width: 37.5em) {
+  .cost__heading {
+    width: 100%;
+  }
 }
 
 .cost__items {
@@ -177,6 +185,7 @@ label {
 }
 
 .disciples__heading {
+  width: 100%;
   padding-bottom: 3rem;
 }
 
@@ -226,7 +235,7 @@ label {
 .figure__name {
   width: 100%;
   color: #d2b579;
-  padding: 2rem 0 2rem 0;
+  padding: 2rem 0;
 }
 
 .figure__text {
