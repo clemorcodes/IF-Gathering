@@ -314,6 +314,12 @@ label {
   width: 100%;
 }
 
+@media only screen and (max-width: 37.5em) {
+  .give {
+    display: none;
+  }
+}
+
 .impact {
   max-width: 120rem;
   margin: 0 auto;
@@ -465,6 +471,7 @@ label {
 @media only screen and (max-width: 37.5em) {
   .unleash {
     width: 100%;
+    padding: 5rem 2rem;
   }
 }
 
