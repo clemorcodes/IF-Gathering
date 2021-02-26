@@ -58,6 +58,10 @@
   &__text {
     width: 100%;
     padding: 0 2rem 3rem 2rem;
+
+    @media only screen and (max-width: $bp-smallest) {
+      padding: 0 0 3rem 0;
+    }
   }
 
   &__link {
