@@ -484,6 +484,12 @@ input[type="text"]:focus {
   border-radius: 0.3rem;
 }
 
+@media only screen and (max-width: 37.5em) {
+  .nav__link {
+    padding: .5rem 1rem;
+  }
+}
+
 .nav__link:hover {
   color: #ffffff;
   background-color: #a80750;

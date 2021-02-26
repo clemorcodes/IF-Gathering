@@ -29,6 +29,10 @@
     border: 2px solid $color-btn;
     border-radius: 0.3rem;
 
+    @media only screen and (max-width: $bp-smallest) {
+      padding: .5rem 1rem;
+    }
+
     &:hover {
       color: $color-white;
       background-color: $color-btn;
