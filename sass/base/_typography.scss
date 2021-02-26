@@ -5,13 +5,21 @@
     font-size: 4rem;
 
     @media only screen and (max-width: $bp-smallest) {
-      font-size: 2rem;
+      font-size: 3rem;
     }
   }
   &__secondary {
     font-size: 3.5rem;
+
+    @media only screen and (max-width: $bp-smallest) {
+        font-size: 2.5rem;
+      }
   }
   &__tertiary {
     font-size: 3rem;
+
+    @media only screen and (max-width: $bp-smallest) {
+        font-size: 2rem;
+      }
   }
 }
