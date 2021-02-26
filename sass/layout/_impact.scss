@@ -6,6 +6,10 @@
     padding: 10rem 4rem;
     text-align: center;
 
+    @media only screen and (max-width: $bp-smallest) {
+        padding: 10rem 2rem;
+    }
+
     &__heading {
         padding-bottom: 3rem;
     }
@@ -14,12 +18,21 @@
         width: 100%;
         display: flex;
         justify-content: space-between;
+
+        @media only screen and (max-width: $bp-smallest) {
+            flex-direction: column;
+        }
     }
 
     &__item {
         width: 31%;
         text-align: center;
         box-shadow: 0 1.5rem 4rem rgba($color-black, .3);
+
+        @media only screen and (max-width: $bp-smallest) {
+            width: 100%;
+            margin-bottom: 2rem;
+        }
 
         &--image {
             width: 100%;

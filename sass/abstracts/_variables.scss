@@ -2,7 +2,6 @@ $color-btn: #a80750;
 $color-white: #ffffff;
 $color-black: #000000;
 
-
 $color-primary: #58585a;
 
 $color-grey-light: #e8e8e8;
@@ -14,4 +13,13 @@ $color-footer: #e8e8e8;
 $color-bg-cost: #dee2e6;
 
 // Border radius
-$border-radius: .4rem;
+$border-radius: 0.4rem;
+
+//RESPONSIVE BREAKPOINTS
+$bp-largest: 68.75em; //1100px
+$bp-large: 62.5em; //1000px
+$bp-medium: 56.25em; //900px
+$bp-small: 50em; //800px
+$bp-smaller: 43.75em; //700px
+$bp-smallest: 37.5em; //600px
+$bp-extra-small: 25em; //400px
