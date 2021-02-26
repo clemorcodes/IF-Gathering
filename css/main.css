@@ -180,7 +180,7 @@ label {
 
 @media only screen and (max-width: 37.5em) {
   .disciples__container {
-    padding-bottom: 6rem 2rem 2rem 2rem;
+    padding: 6rem 2rem 2rem 2rem;
   }
 }
 
@@ -407,8 +407,20 @@ label {
           align-items: center;
 }
 
+@media only screen and (max-width: 37.5em) {
+  .nav {
+    padding: 0 2rem;
+  }
+}
+
 .nav__logo img {
   width: 7rem;
+}
+
+@media only screen and (max-width: 37.5em) {
+  .nav__logo img {
+    width: 5rem;
+  }
 }
 
 .nav__link {
@@ -454,7 +466,7 @@ label {
 
 @media only screen and (max-width: 37.5em) {
   .stories {
-    height: 50vh;
+    height: 30vh;
   }
 }
 
