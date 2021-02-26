@@ -172,7 +172,7 @@ label {
 
 @media only screen and (max-width: 37.5em) {
   .disciples__container {
-    padding-bottom: 2rem;
+    padding-bottom: 6rem 2rem 2rem 2rem;
   }
 }
 
