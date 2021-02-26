@@ -32,35 +32,31 @@
           </p>
 
           <form class="form">
-
-            <ul class="subscription">
-              <li class="subscription__item">
-                <input class="subscription__input"
+            <div class="subscription">
+              <input class="subscription__input"
                 type="radio"
                 id="give-once"
                 name="give"
-                value="give-once"
+                value="give-once" checked
               />
-              <label class="subscription__label" for="give-once">Give once</label>
-              </li>
+              <label class="subscription__label" for="give-once">Give Once</label>
 
-              <li class="subscription__item">
-                <input class="subscription__input"
+              <input class="subscription__input"
                 type="radio"
                 id="give-monthly"
                 name="give"
                 value="give-monthly"
               />
-              <label class="subscription__label" for="give-monthly">Give monthly</label>
-              </li>
-            </ul>
-            <p class="amount__text">Your one time gift amount <span class="star">*</p>
+              <label class="subscription__label" for="give-monthly">Give Monthly</label>
+            </div>
 
-            <div class="second">
+            <p class="text">Your one time gift amount <span class="star">*</p>
+
+            <div class="amount">
               <label for="initial-value"
                 ></label
               >
-              <input class="second__input" type="text" id="initial-value" value="$35" />
+              <input class="amount__input" type="text" id="initial-value" value="$35" />
             </div>
           </form>
 
