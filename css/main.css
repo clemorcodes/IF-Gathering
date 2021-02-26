@@ -330,6 +330,14 @@ label {
 
 .impact__heading {
   padding-bottom: 3rem;
+  width: 80%;
+  margin: 0 auto;
+}
+
+@media only screen and (max-width: 37.5em) {
+  .impact__heading {
+    width: 100%;
+  }
 }
 
 .impact__items {
