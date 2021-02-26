@@ -79,6 +79,15 @@ body {
   background-color: #ffffff;
 }
 
+@media only screen and (max-width: 37.5em) {
+  .give {
+    display: block;
+    position: relative;
+    width: 100%;
+    left: 0;
+  }
+}
+
 .give__heading {
   text-align: center;
   text-transform: uppercase;
@@ -314,12 +323,6 @@ label {
   width: 100%;
 }
 
-@media only screen and (max-width: 37.5em) {
-  .give {
-    display: none;
-  }
-}
-
 .impact {
   max-width: 120rem;
   margin: 0 auto;
@@ -330,7 +333,7 @@ label {
 
 @media only screen and (max-width: 37.5em) {
   .impact {
-    padding: 10rem 2rem;
+    padding: 5rem 2rem;
   }
 }
 

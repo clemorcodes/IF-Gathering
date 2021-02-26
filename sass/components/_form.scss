@@ -6,6 +6,13 @@
     z-index: 20;
     background-color: $color-white;
 
+    @media only screen and (max-width: $bp-smallest) {
+        display: block;
+        position: relative;
+        width: 100%;
+        left: 0;
+    }
+
     &__heading {
         text-align: center;
         text-transform: uppercase;
