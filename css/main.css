@@ -319,7 +319,7 @@ input[type="text"]:focus {
 .footer {
   grid-column: full-start / full-end;
   text-align: center;
-  padding: 2rem 0;
+  padding: 2rem;
 }
 
 .footer__copyright {
