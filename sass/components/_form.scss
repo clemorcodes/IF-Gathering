@@ -1,41 +1,4 @@
-.give {
-  padding: 5rem;
-  position: absolute;
-  top: 30%;
-  left: 8%;
-  z-index: 20;
-  background-color: $color-white;
-
-  @media only screen and (max-width: $bp-smallest) {
-    display: block;
-    position: relative;
-    width: 100%;
-    left: 0;
-    padding: 2rem;
-  }
-
-  &__heading {
-    text-align: center;
-    text-transform: uppercase;
-    margin-bottom: 3rem;
-  }
-
-  &__btn {
-    width: 100%;
-    padding: 1rem 0;
-    margin-top: 2rem;
-  }
-}
-
-.star,
-.dollar {
-  color: $color-btn;
-}
-
-// input {
-//     visibility: hidden;
-// }
-
+// Give form
 .subscription {
   display: flex;
   width: 100%;
@@ -77,23 +40,27 @@ input[type="radio"]:checked + label {
 .amount {
   display: flex;
   flex-direction: column;
-
 }
 
- input[type = "text"] {
-    padding: 1rem;
-    position: relative;
-    border: 2px solid #b8b8b8;
-    border-radius: $border-radius;
-    outline: none;
+input[type="text"] {
+  padding: 1rem;
+  position: relative;
+  border: 2px solid #b8b8b8;
+  border-radius: $border-radius;
+  outline: none;
 
-    &::before {
-        content: "$";
-        position: absolute;
-    }
+  &::before {
+    content: "$";
+    position: absolute;
+  }
 
-    &:focus {
-        color: $color-primary;
-        font-size: 2rem;
-    }
+  &:focus {
+    color: $color-primary;
+    font-size: 2rem;
+  }
+}
+
+.star,
+.dollar {
+  color: $color-btn;
 }

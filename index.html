@@ -27,17 +27,19 @@
       <!--HEADER-->
       <section class="header">
         <div class="give">
-          <p class="give__heading heading heading__tertiary">
+          <p class="heading heading__tertiary give__heading">
             IF exist <br />because of you.
           </p>
 
           <form class="form">
+
+            <!--Give radio button-->
             <div class="subscription">
               <input class="subscription__input"
                 type="radio"
                 id="give-once"
                 name="give"
-                value="give-once" checked
+                value="give-once"
               />
               <label class="subscription__label" for="give-once">Give Once</label>
 
@@ -45,13 +47,14 @@
                 type="radio"
                 id="give-monthly"
                 name="give"
-                value="give-monthly"
+                value="give-monthly" checked
               />
               <label class="subscription__label" for="give-monthly">Give Monthly</label>
             </div>
 
             <p class="text">Your one time gift amount <span class="star">*</p>
 
+            <!--Give amount-->
             <div class="amount">
               <label for="initial-value"
                 ></label
@@ -59,7 +62,7 @@
               <input class="amount__input" type="text" id="initial-value" value="$35" />
             </div>
           </form>
-
+          <!--Give button-->
           <button class="btn give__btn">Give</button>
         </div>
 

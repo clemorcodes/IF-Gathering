@@ -70,42 +70,6 @@ body {
   color: #ffffff;
 }
 
-.give {
-  padding: 5rem;
-  position: absolute;
-  top: 30%;
-  left: 8%;
-  z-index: 20;
-  background-color: #ffffff;
-}
-
-@media only screen and (max-width: 43.75em) {
-  .give {
-    display: block;
-    position: relative;
-    width: 100%;
-    left: 0;
-    padding: 2rem;
-  }
-}
-
-.give__heading {
-  text-align: center;
-  text-transform: uppercase;
-  margin-bottom: 3rem;
-}
-
-.give__btn {
-  width: 100%;
-  padding: 1rem 0;
-  margin-top: 2rem;
-}
-
-.star,
-.dollar {
-  color: #a80750;
-}
-
 .subscription {
   display: -webkit-box;
   display: -ms-flexbox;
@@ -175,6 +139,11 @@ input[type="text"]::before {
 input[type="text"]:focus {
   color: #58585a;
   font-size: 2rem;
+}
+
+.star,
+.dollar {
+  color: #a80750;
 }
 
 .cost {
@@ -387,6 +356,37 @@ input[type="text"]:focus {
   .header__image {
     height: 100%;
   }
+}
+
+.give {
+  padding: 5rem;
+  position: absolute;
+  top: 30%;
+  left: 8%;
+  z-index: 20;
+  background-color: #ffffff;
+}
+
+@media only screen and (max-width: 43.75em) {
+  .give {
+    display: block;
+    position: relative;
+    width: 100%;
+    left: 0;
+    padding: 2rem;
+  }
+}
+
+.give__heading {
+  text-align: center;
+  text-transform: uppercase;
+  margin-bottom: 3rem;
+}
+
+.give__btn {
+  width: 100%;
+  padding: 1rem 0;
+  margin-top: 2rem;
 }
 
 .impact {

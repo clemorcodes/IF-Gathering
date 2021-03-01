@@ -14,3 +14,32 @@
       }
   }
 }
+
+.give {
+  padding: 5rem;
+  position: absolute;
+  top: 30%;
+  left: 8%;
+  z-index: 20;
+  background-color: $color-white;
+
+  @media only screen and (max-width: $bp-smallest) {
+    display: block;
+    position: relative;
+    width: 100%;
+    left: 0;
+    padding: 2rem;
+  }
+
+  &__heading {
+    text-align: center;
+    text-transform: uppercase;
+    margin-bottom: 3rem;
+  }
+
+  &__btn {
+    width: 100%;
+    padding: 1rem 0;
+    margin-top: 2rem;
+  }
+}
