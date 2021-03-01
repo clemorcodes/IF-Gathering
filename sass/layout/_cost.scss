@@ -1,38 +1,41 @@
 .cost {
-    grid-column: full-start / full-end;
-    background-image: url(/img/cost.jpg);
-    background-size: cover;
-    background-repeat: no-repeat;
-    background-position: center;
+  grid-column: full-start / full-end;
+  background-image: url(/img/cost.jpg);
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: center;
+  text-align: center;
+  padding: 10rem 2rem;
+
+  &__heading {
     text-align: center;
-    padding: 10rem 2rem;
-    
+    color: $color-btn;
+    padding-bottom: 2rem;
+    width: 50%;
+    margin: 0 auto;
 
-    &__heading {
-        text-align: center;
-        color: $color-btn;
-        padding-bottom: 2rem;
-        width: 50%;
-        margin: 0 auto;
-
-        @media only screen and (max-width: $bp-smallest) {
-            width: 100%;
-          }
+    @media only screen and (max-width: $bp-medium) {
+      width: 80%;
     }
 
-    &__items {
-        width: 90%;
-        margin: 0 auto;
-        padding-bottom: .5rem;
+    @media only screen and (max-width: $bp-smallest) {
+      width: 100%;
     }
+  }
 
-    &__btn {
-        margin-top: 2rem;
-        padding: 2rem 3rem;
+  &__items {
+    width: 90%;
+    margin: 0 auto;
+    padding-bottom: 0.5rem;
+  }
 
-        &:hover {
-            color: $color-btn;
-            background-color: $color-bg-cost;
-        }
+  &__btn {
+    margin-top: 2rem;
+    padding: 2rem 3rem;
+
+    &:hover {
+      color: $color-btn;
+      background-color: $color-bg-cost;
     }
+  }
 }

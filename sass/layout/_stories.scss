@@ -1,10 +1,13 @@
 .stories {
-    grid-column: full-start / full-end;
     background-image: url(/img/photo_women-talking.jpg);
     background-repeat: no-repeat;
     background-position: center bottom;
     background-size: cover;
     height: 100vh;
+
+    @media only screen and (max-width: $bp-large) {
+        height: 50vw;
+      }
 
     @media only screen and (max-width: $bp-smallest) {
         height: 30vh;

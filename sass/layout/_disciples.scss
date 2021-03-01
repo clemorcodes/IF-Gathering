@@ -10,7 +10,9 @@
     padding: 6rem 4rem 10rem 4rem;
     text-align: center;
 
-    @media only screen and (max-width: $bp-smallest) {
+    
+
+    @media only screen and (max-width: $bp-small) {
       padding: 6rem 2rem 2rem 2rem;
     }
   }

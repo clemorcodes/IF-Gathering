@@ -33,7 +33,7 @@ body {
   font-size: 4rem;
 }
 
-@media only screen and (max-width: 37.5em) {
+@media only screen and (max-width: 43.75em) {
   .heading__primary {
     font-size: 3rem;
   }
@@ -43,7 +43,7 @@ body {
   font-size: 3.5rem;
 }
 
-@media only screen and (max-width: 37.5em) {
+@media only screen and (max-width: 43.75em) {
   .heading__secondary {
     font-size: 2.5rem;
   }
@@ -53,7 +53,7 @@ body {
   font-size: 3rem;
 }
 
-@media only screen and (max-width: 37.5em) {
+@media only screen and (max-width: 43.75em) {
   .heading__tertiary {
     font-size: 2rem;
   }
@@ -79,7 +79,7 @@ body {
   background-color: #ffffff;
 }
 
-@media only screen and (max-width: 37.5em) {
+@media only screen and (max-width: 43.75em) {
   .give {
     display: block;
     position: relative;
@@ -195,7 +195,13 @@ input[type="text"]:focus {
   margin: 0 auto;
 }
 
-@media only screen and (max-width: 37.5em) {
+@media only screen and (max-width: 56.25em) {
+  .cost__heading {
+    width: 80%;
+  }
+}
+
+@media only screen and (max-width: 43.75em) {
   .cost__heading {
     width: 100%;
   }
@@ -204,7 +210,7 @@ input[type="text"]:focus {
 .cost__items {
   width: 90%;
   margin: 0 auto;
-  padding-bottom: .5rem;
+  padding-bottom: 0.5rem;
 }
 
 .cost__btn {
@@ -230,7 +236,7 @@ input[type="text"]:focus {
   text-align: center;
 }
 
-@media only screen and (max-width: 37.5em) {
+@media only screen and (max-width: 50em) {
   .disciples__container {
     padding: 6rem 2rem 2rem 2rem;
   }
@@ -251,7 +257,7 @@ input[type="text"]:focus {
           justify-content: space-between;
 }
 
-@media only screen and (max-width: 37.5em) {
+@media only screen and (max-width: 43.75em) {
   .disciples__items {
     -webkit-box-orient: vertical;
     -webkit-box-direction: normal;
@@ -264,7 +270,7 @@ input[type="text"]:focus {
   width: 31%;
 }
 
-@media only screen and (max-width: 37.5em) {
+@media only screen and (max-width: 43.75em) {
   .disciples__item {
     width: 100%;
     margin-bottom: 3rem;
@@ -295,7 +301,7 @@ input[type="text"]:focus {
   padding: 0 2rem 3rem 2rem;
 }
 
-@media only screen and (max-width: 37.5em) {
+@media only screen and (max-width: 43.75em) {
   .figure__text {
     padding: 0 0 3rem 0;
   }
@@ -341,7 +347,7 @@ input[type="text"]:focus {
   padding-bottom: 5rem;
 }
 
-@media only screen and (max-width: 37.5em) {
+@media only screen and (max-width: 43.75em) {
   .global__text {
     max-width: 100%;
   }
@@ -362,8 +368,25 @@ input[type="text"]:focus {
   transition: all 0.3s;
 }
 
+.header {
+  height: 100%;
+}
+
 .header__image {
   width: 100%;
+  height: 100%;
+}
+
+@media only screen and (max-width: 56.25em) {
+  .header__image {
+    height: 70vw;
+  }
+}
+
+@media only screen and (max-width: 43.75em) {
+  .header__image {
+    height: 100%;
+  }
 }
 
 .impact {
@@ -374,7 +397,7 @@ input[type="text"]:focus {
   text-align: center;
 }
 
-@media only screen and (max-width: 37.5em) {
+@media only screen and (max-width: 50em) {
   .impact {
     padding: 5rem 2rem;
   }
@@ -386,7 +409,7 @@ input[type="text"]:focus {
   margin: 0 auto;
 }
 
-@media only screen and (max-width: 37.5em) {
+@media only screen and (max-width: 43.75em) {
   .impact__heading {
     width: 100%;
   }
@@ -402,7 +425,7 @@ input[type="text"]:focus {
           justify-content: space-between;
 }
 
-@media only screen and (max-width: 37.5em) {
+@media only screen and (max-width: 43.75em) {
   .impact__items {
     -webkit-box-orient: vertical;
     -webkit-box-direction: normal;
@@ -418,7 +441,7 @@ input[type="text"]:focus {
           box-shadow: 0 1.5rem 4rem rgba(0, 0, 0, 0.3);
 }
 
-@media only screen and (max-width: 37.5em) {
+@media only screen and (max-width: 43.75em) {
   .impact__item {
     width: 100%;
     margin-bottom: 2rem;
@@ -453,7 +476,7 @@ input[type="text"]:focus {
           align-items: center;
 }
 
-@media only screen and (max-width: 37.5em) {
+@media only screen and (max-width: 43.75em) {
   .nav {
     padding: 0 2rem;
   }
@@ -463,7 +486,7 @@ input[type="text"]:focus {
   width: 7rem;
 }
 
-@media only screen and (max-width: 37.5em) {
+@media only screen and (max-width: 43.75em) {
   .nav__logo img {
     width: 5rem;
   }
@@ -484,7 +507,7 @@ input[type="text"]:focus {
   border-radius: 0.3rem;
 }
 
-@media only screen and (max-width: 37.5em) {
+@media only screen and (max-width: 43.75em) {
   .nav__link {
     padding: .5rem 1rem;
   }
@@ -508,7 +531,6 @@ input[type="text"]:focus {
 }
 
 .stories {
-  grid-column: full-start / full-end;
   background-image: url(/img/photo_women-talking.jpg);
   background-repeat: no-repeat;
   background-position: center bottom;
@@ -516,7 +538,13 @@ input[type="text"]:focus {
   height: 100vh;
 }
 
-@media only screen and (max-width: 37.5em) {
+@media only screen and (max-width: 75em) {
+  .stories {
+    height: 50vw;
+  }
+}
+
+@media only screen and (max-width: 43.75em) {
   .stories {
     height: 30vh;
   }
@@ -528,11 +556,11 @@ input[type="text"]:focus {
   font-weight: 400;
   text-align: center;
   margin: 0 auto;
-  padding: 10rem 2rem;
-  width: 70%;
+  padding: 10rem 4rem;
+  width: 80%;
 }
 
-@media only screen and (max-width: 37.5em) {
+@media only screen and (max-width: 43.75em) {
   .unleash {
     width: 100%;
     padding: 5rem 2rem;
@@ -545,7 +573,7 @@ input[type="text"]:focus {
   padding-bottom: 3rem;
 }
 
-@media only screen and (max-width: 37.5em) {
+@media only screen and (max-width: 43.75em) {
   .unleash__heading {
     width: 100%;
   }
@@ -555,7 +583,7 @@ input[type="text"]:focus {
   padding: 0 2rem 3rem 2rem;
 }
 
-@media only screen and (max-width: 37.5em) {
+@media only screen and (max-width: 43.75em) {
   .unleash__text {
     padding: 0 0 3rem 0;
   }
